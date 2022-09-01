@@ -10,8 +10,7 @@ import java.sql.Statement;
 public class OperacionesDB {
     
     public static void main(String[] args) {
-        listarPeliculas();
-        
+        listarPeliculas();   
     }
     
     public static void actualizarPeliculas(int id, String genero) {
